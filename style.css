@@ -1,0 +1,129 @@
+body {
+    background-color: #8f00d1;
+    margin: 0;
+    padding: 0;
+}
+
+.porti {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.porti__marca {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.porti__logo {
+    width: 10%;
+    margin-right: 15px;
+}
+
+.porti__nome {
+    font-family: sans-serif;
+    font-size: 3rem;
+    font-weight: 450;
+    color: white;
+    margin: 0;
+}
+
+.porti__menu {
+    display: flex;
+    margin-top: 10px;
+}
+
+.porti__link1,
+.porti__link2 {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.7rem;
+    border: 2px solid #22f6fd;
+    border-radius: 15px;
+    padding: 15px 12px;
+    font-weight: 550;
+    transition: background-color 0.3s;
+}
+
+.porti__link1:hover,
+.porti__link2:hover {
+    background-color: #22f6fd;
+    color: #000000;
+}
+
+.porti__link2 {
+    margin-left: 20px;
+    border-radius: 8px;
+}
+.port__apres__conte__tit{
+    color:#22f6fd;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-left: 12%;
+}
+.porti__apres__conte__text{
+text-align: justify;
+max-width: 800px; 
+margin: 0 auto; 
+padding: 0 20px; 
+font-weight: 500;
+font-size: 1.5rem;
+color:#f7df06;
+
+}
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+
+.porti__apres__links__navegacao {
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+font-size: 1.5rem;
+text-decoration: none;
+border: 2px solid #0beed0;
+padding: 21.5px 0px;
+border-radius: 8px;
+color: #f7df06;
+display: inline-block;
+margin: 10px;
+width: 200px;
+transition: background-color 0.3s;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.porti__apres__links__navegacao:hover {
+background-color: #b605da;
+border-radius: 16px;
+}
+
+.porti__apres__link__nave__imag1{
+width: 45px;
+margin-bottom: 10px;
+}
+
+.porti__apres__link__nave__imag2{
+width: 45px;
+margin-bottom: 10px;
+}
+.foto__prin { 
+ width: 300px; 
+border: 2px solid #0beed0; 
+border-radius: 10px; 
+margin-top: -250px; 
+display: block; 
+margin-left: auto; 
+margin-right: 25PX;
+}
